@@ -14,7 +14,7 @@ import javax.persistence.UniqueConstraint;
 
 import org.pstcl.ea.util.EAUtil;
 
-
+//testing commit ti brnch
 @Entity
 @Table(name = "LOSS_REPORT_TABLE",uniqueConstraints={@UniqueConstraint(columnNames={"LOC_ID", "monthOfYear", "year"})})
 public class LossReportEntity implements Comparable<LossReportEntity> {
